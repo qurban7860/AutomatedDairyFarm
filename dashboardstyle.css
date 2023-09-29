@@ -1,0 +1,134 @@
+/* .headings{
+    margin-left: 20%;
+    color: #717171;
+}
+
+#daily{
+margin-left: 20%
+}
+
+#total{
+    margin-left: 20%
+    }
+
+#weekly,#monthly,#annualy{
+    margin-left: 8%
+    }
+
+    #healthy,#sick,#pregnant{
+        margin-left: 8%
+        }
+
+.mproduction{
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-color: #717171;
+    border-radius: 1px solid black ;
+}
+
+span{
+    text-align:center;
+  }
+.div1{
+    background-color: lightgreen; 
+    display:inline-block;
+    margin-left:20%;
+} */
+
+.headings {
+    margin-left: 20%;
+    color: #717171;
+}
+
+#daily {
+    margin-left: 20%;
+}
+
+#weekly, #monthly, #annualy {
+    margin-left: 8%;
+}
+
+.mproduction {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-color: #717171;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .mproduction#daily {
+    background-color: #5DADE2; 
+  }
+  
+  .mproduction#weekly {
+    background-color: #F4D03F; 
+  }
+  
+  .mproduction#monthly {
+    background-color: #58D68D; 
+  }
+  
+  .mproduction#annualy {
+    background-color: #E74C3C; 
+  }
+  
+  .mproduction span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+span {
+    text-align: center;
+}
+
+.div1 {
+    background-color: lightgreen;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    margin-left: 20%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .div1 h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .div1 h3 {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  .div1 button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #717171;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .div1 button:hover {
+    background-color: #008000; 
+  }
+
+  span {
+    display: block;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+  }
